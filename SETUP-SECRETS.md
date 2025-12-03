@@ -29,15 +29,10 @@
 
 ### Secret 4: FTP_REMOTE_DIR
 - Name: `FTP_REMOTE_DIR`
-- Secret: `/wp-content/themes/businesspress-child/`
-  （※実際のパスが異なる場合は調整が必要です）
+- Secret: `/public_html/suzukireinetsu.com/wp-content/themes/businesspress-child/`
 
-## よくあるパスパターン
-
-- `/wp-content/themes/businesspress-child/`
-- `/public_html/wp-content/themes/businesspress-child/`
-- `/home/takeru7736/www/wp-content/themes/businesspress-child/`
-- `/var/www/html/wp-content/themes/businesspress-child/`
+**確認済みのリモートディレクトリパス**: 
+`/public_html/suzukireinetsu.com/wp-content/themes/businesspress-child/`
 
 ## 設定後の確認
 

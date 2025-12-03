@@ -16,13 +16,10 @@
 | `FTP_SERVER` | `www1080.conoha.ne.jp` |
 | `FTP_USERNAME` | `takeru7736@suzukireinetsu.com` |
 | `FTP_PASSWORD` | `h3QRh72h@@8yTR5` |
-| `FTP_REMOTE_DIR` | `/wp-content/themes/businesspress-child/` |
+| `FTP_REMOTE_DIR` | `/public_html/suzukireinetsu.com/wp-content/themes/businesspress-child/` |
 
-**注意**: `FTP_REMOTE_DIR` のパスは実際のサーバー構成によって異なる可能性があります。
-以下が一般的なパターンです：
-- `/wp-content/themes/businesspress-child/` ← まずこれを試してください
-- `/public_html/wp-content/themes/businesspress-child/`
-- `/home/takeru7736/www/wp-content/themes/businesspress-child/`
+**リモートディレクトリのパス**: 
+`/public_html/suzukireinetsu.com/wp-content/themes/businesspress-child/`
 
 ## Secrets設定後のデプロイ実行
 
