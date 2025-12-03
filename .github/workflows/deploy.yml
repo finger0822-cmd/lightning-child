@@ -14,6 +14,26 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
     
+    - name: Validate Secrets
+      run: |
+        if [ -z "${{ secrets.FTP_SERVER }}" ]; then
+          echo "❌ Error: FTP_SERVER secret is not set"
+          exit 1
+        fi
+        if [ -z "${{ secrets.FTP_USERNAME }}" ]; then
+          echo "❌ Error: FTP_USERNAME secret is not set"
+          exit 1
+        fi
+        if [ -z "${{ secrets.FTP_PASSWORD }}" ]; then
+          echo "❌ Error: FTP_PASSWORD secret is not set"
+          exit 1
+        fi
+        if [ -z "${{ secrets.FTP_REMOTE_DIR }}" ]; then
+          echo "❌ Error: FTP_REMOTE_DIR secret is not set"
+          exit 1
+        fi
+        echo "✅ All secrets are set"
+    
     - name: Deploy via FTP/SFTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.3
       with:
@@ -28,4 +48,7 @@ jobs:
           **/node_modules/**
           **/.github/**
           businesspress-child.zip
+          *.md
+          *.txt
+          deploy-ftp.ps1
 
