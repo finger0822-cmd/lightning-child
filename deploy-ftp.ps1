@@ -37,3 +37,4 @@ Write-Host "`n実際のリモートディレクトリのパスが分かってい
 Write-Host "GitHub Secretsに設定するか、このスクリプトを編集してください。" -ForegroundColor Yellow
 
 
+
