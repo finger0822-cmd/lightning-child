@@ -48,6 +48,8 @@ WordPress子テーマ「businesspress-child」の「おうち安心サポート�
 - `DEPLOY.md` - GitHub Actionsを使った自動デプロイ設定
 - `DEPLOY-SERVER.md` - サーバー側での自動反映設定
 
+**注意**: 自動デプロイを実行するには、GitHub Secretsにサーバー情報（FTP/SFTP）を設定する必要があります。
+
 ## ライセンス
 
 親テーマ（BusinessPress）のライセンスに従います。
