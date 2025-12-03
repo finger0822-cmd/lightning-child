@@ -12,7 +12,9 @@ get_header(); ?>
       <h1 class="sr-support-title">月1万円で、『困った』をひとりにしない。</h1>
       <p class="sr-support-lead">
         電球交換・家電のちょっとした不調・季節ごとの点検など、<br>
-        日常の「ちょっと困った」を気軽に相談できるサービスです。
+        日常の「ちょっと困った」を気軽に相談できるサービスです。<br>
+        「困ったら呼べる」ではなく、<strong>そもそも困らない状態を作る</strong>。<br>
+        毎月の習慣としての安心を、ご家庭にお届けします。
       </p>
       <div class="sr-support-hero-buttons">
         <a href="#" class="sr-btn sr-btn-primary">LINEで相談・申込み</a>
@@ -29,12 +31,15 @@ get_header(); ?>
       <div class="sr-support-forwho-grid">
         <div class="sr-support-box">
           <h3 class="sr-support-box-title">離れて暮らす親御さんの暮らしが心配なご家族</h3>
+          <p class="sr-support-box-text">「毎月誰かが行ってくれるだけで安心」という価値をご希望の方</p>
         </div>
         <div class="sr-support-box">
-          <h3 class="sr-support-box-title">ちょっとした作業を頼める人が身近にいないご家庭</h3>
+          <h3 class="sr-support-box-title">一人暮らしやご夫婦で生活されているご家庭</h3>
+          <p class="sr-support-box-text">電球交換・家電不調など「小さな不安」が積み重なる層。見ず知らずの業者を呼ぶのが不安な方</p>
         </div>
         <div class="sr-support-box">
           <h3 class="sr-support-box-title">設備の不調が起きる前に点検しておきたいご家庭</h3>
+          <p class="sr-support-box-text">トラブルが起きてから対応するのではなく、予防的に見守ってもらいたい方</p>
         </div>
       </div>
     </div>
@@ -52,16 +57,28 @@ get_header(); ?>
         <div class="sr-support-card">
           <h3 class="sr-support-card-title">ちょこっと作業サポート</h3>
           <ul class="sr-support-card-list">
-            <li>電球交換</li>
-            <li>電池交換</li>
-            <li>テレビ配線確認</li>
-            <li>家電の簡単な設定変更</li>
+            <li>電球交換・蛍光灯交換</li>
+            <li>リモコン設定</li>
+            <li>家電のちょっとした不調（一次対応）</li>
+            <li>換気扇・フィルター清掃</li>
+            <li>トイレ・蛇口の軽微トラブル確認</li>
+            <li>ちょっとした家具移動</li>
+            <li>季節家電の入れ替え</li>
+            <li>コンセント・ブレーカーの一次点検</li>
           </ul>
           <p class="sr-support-small">※大掛かりな工事は別途お見積り</p>
+          <p class="sr-support-small">※「とりあえず来て診る」が可能です</p>
         </div>
         <div class="sr-support-card">
-          <h3 class="sr-support-card-title">季節ごとの安心チェック</h3>
-          <p class="sr-support-card-text">夏前・冬前の設備チェックを行い、安全で快適なくらしをサポートします。</p>
+          <h3 class="sr-support-card-title">季節安全点検</h3>
+          <p class="sr-support-card-text">月1万円の本質価値は「予防」にあります。安全で快適なくらしをサポートします。</p>
+          <ul class="sr-support-card-list">
+            <li>エアコン冷暖房チェック</li>
+            <li>冷蔵庫・洗濯機の動作異常チェック</li>
+            <li>ストーブ・FFヒーターの安全点検</li>
+            <li>冬前・夏前の家電稼働点検</li>
+            <li>漏電チェック（簡易）</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -74,10 +91,14 @@ get_header(); ?>
       <div class="sr-support-price-card">
         <h3 class="sr-support-price-name">おうち安心サポート 基本プラン</h3>
         <div class="sr-support-price-amount">月額 <span class="sr-support-price-number">10,000</span> 円（税込）</div>
-        <p class="sr-support-price-desc">月2回訪問／ちょこっと作業／設備の簡易点検込み</p>
+        <p class="sr-support-price-desc">月2回まで訪問無料（軽作業）／ちょこっと作業／設備の簡易点検込み</p>
+        <div class="sr-support-price-benefit">
+          <p class="sr-support-price-benefit-text">軽作業は月2回まで追加料金なし。気軽にご相談いただけます。</p>
+        </div>
         <ul class="sr-support-price-list">
           <li>契約期間：1年を目安（途中解約の相談可）</li>
-          <li>訪問日時はご家庭と相談して固定枠にする</li>
+          <li>訪問日時はご家庭と相談して固定枠にする（原則3日前までにご予約）</li>
+          <li>月2回までの訪問で軽作業対応可能</li>
           <li>消耗品代（電球など）は実費</li>
           <li>大掛かりな工事は別途お見積り</li>
         </ul>
@@ -129,7 +150,19 @@ get_header(); ?>
         </div>
         <div class="sr-support-faq-item">
           <dt class="sr-support-faq-question">実家（親御さん宅）への申込みについて</dt>
-          <dd class="sr-support-faq-answer">離れて暮らすご家族からのお申込みも可能です。お電話やLINEでお気軽にご相談ください。</dd>
+          <dd class="sr-support-faq-answer">離れて暮らすご家族からのお申込みも可能です。お電話やLINEでお気軽にご相談ください。ご家族の皆様の安心のため、親御さんのご自宅でのサービス開始も承っております。</dd>
+        </div>
+        <div class="sr-support-faq-item">
+          <dt class="sr-support-faq-question">訪問の予約はどのように行いますか？</dt>
+          <dd class="sr-support-faq-answer">原則として3日前までにご予約をお願いしております。ご家庭と相談して固定の訪問枠を設定することも可能です。緊急時はご相談ください（別料金またはプラン内での対応時間調整となる場合があります）。</dd>
+        </div>
+        <div class="sr-support-faq-item">
+          <dt class="sr-support-faq-question">月2回を超えた訪問はどうなりますか？</dt>
+          <dd class="sr-support-faq-answer">基本プランでは月2回までの訪問で軽作業対応が可能です。それ以上の訪問や緊急対応が必要な場合は、別途ご相談ください。</dd>
+        </div>
+        <div class="sr-support-faq-item">
+          <dt class="sr-support-faq-question">専門的な工事が必要な場合はどうなりますか？</dt>
+          <dd class="sr-support-faq-answer">冷蔵庫・洗濯機の買い替え、エアコン交換、小規模リフォーム、電気工事など、専門的な工事が必要な場合は別途お見積りいたします。おうち安心サポートでご信頼いただいたご家庭には、安心してご依頼いただける体制を整えております。</dd>
         </div>
       </dl>
     </div>
