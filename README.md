@@ -1,6 +1,8 @@
-# BusinessPress Child Theme - おうち安心サポート
+# Lightning Child Theme - おうち安心サポート
 
-WordPress子テーマ「businesspress-child」の「おうち安心サポート」専用ページ実装
+WordPress子テーマ「Lightning Child」の「おうち安心サポート」専用ページ実装
+
+**親テーマ**: Lightning（ライトニング）
 
 ## ファイル構成
 
@@ -50,7 +52,12 @@ WordPress子テーマ「businesspress-child」の「おうち安心サポート�
 
 **注意**: 自動デプロイを実行するには、GitHub Secretsにサーバー情報（FTP/SFTP）を設定する必要があります。
 
+## 親テーマ
+
+この子テーマは **Lightning（ライトニング）** を親テーマとして使用します。
+親テーマをインストールしてから、この子テーマを有効化してください。
+
 ## ライセンス
 
-親テーマ（BusinessPress）のライセンスに従います。
+親テーマ（Lightning）のライセンスに従います。
 
