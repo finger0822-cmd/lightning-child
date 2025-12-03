@@ -29,10 +29,10 @@
 
 ### Secret 4: FTP_REMOTE_DIR
 - Name: `FTP_REMOTE_DIR`
-- Secret: `/public_html/suzukireinetsu.com/wp-content/themes/businesspress-child/`
+- Secret: `/public_html/suzukireinetsu.com/wp-content/themes/lightning-child/`
 
 **確認済みのリモートディレクトリパス**: 
-`/public_html/suzukireinetsu.com/wp-content/themes/businesspress-child/`
+`/public_html/suzukireinetsu.com/wp-content/themes/lightning-child/`
 
 ## 設定後の確認
 

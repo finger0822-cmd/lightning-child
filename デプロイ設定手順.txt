@@ -33,10 +33,10 @@ Secret: h3QRh72h@@8yTR5
 Secret 4: FTP_REMOTE_DIR
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Name: FTP_REMOTE_DIR
-Secret: /public_html/suzukireinetsu.com/wp-content/themes/businesspress-child/
+Secret: /public_html/suzukireinetsu.com/wp-content/themes/lightning-child/
 
 【確認済みのリモートディレクトリパス】
-/public_html/suzukireinetsu.com/wp-content/themes/businesspress-child/
+/public_html/suzukireinetsu.com/wp-content/themes/lightning-child/
 
 【ステップ4】設定後の確認
 1. GitHubの「Actions」タブを開く
@@ -47,7 +47,7 @@ Secret: /public_html/suzukireinetsu.com/wp-content/themes/businesspress-child/
 - リモートディレクトリのパスが不明な場合は、FTPクライアントで
   サーバーに接続して実際のパスを確認してください
 - WordPressのテーマディレクトリは通常 /wp-content/themes/ です
-- 子テーマのフォルダ名が businesspress-child であることを確認してください
+- 子テーマのフォルダ名が lightning-child であることを確認してください
 
 ===============================================
 

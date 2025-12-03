@@ -16,10 +16,10 @@
 | `FTP_SERVER` | `www1080.conoha.ne.jp` |
 | `FTP_USERNAME` | `takeru7736@suzukireinetsu.com` |
 | `FTP_PASSWORD` | `h3QRh72h@@8yTR5` |
-| `FTP_REMOTE_DIR` | `/public_html/suzukireinetsu.com/wp-content/themes/businesspress-child/` |
+| `FTP_REMOTE_DIR` | `/public_html/suzukireinetsu.com/wp-content/themes/lightning-child/` |
 
 **リモートディレクトリのパス**: 
-`/public_html/suzukireinetsu.com/wp-content/themes/businesspress-child/`
+`/public_html/suzukireinetsu.com/wp-content/themes/lightning-child/`
 
 ## Secrets設定後のデプロイ実行
 

@@ -30,7 +30,7 @@
 
 #### 4. FTP_REMOTE_DIR
 - **Name**: `FTP_REMOTE_DIR`
-- **Secret**: `/public_html/suzukireinetsu.com/wp-content/themes/businesspress-child/`
+- **Secret**: `/public_html/suzukireinetsu.com/wp-content/themes/lightning-child/`
 
 ### ステップ3: Secrets設定の確認
 
