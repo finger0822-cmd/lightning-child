@@ -1,8 +1,19 @@
 <?php
 /**
  * Template Name: おうち安心サポート
+ * Version: 2.0
+ * Last Updated: 2024-12-04
+ * Price: 10,000円
  */
 get_header(); ?>
+
+<!-- ========== ページテンプレートデバッグ情報 START ========== -->
+<!-- このファイル: <?php echo __FILE__; ?> -->
+<!-- ファイル名: <?php echo basename(__FILE__); ?> -->
+<!-- 読み込み時刻: <?php echo date('Y-m-d H:i:s'); ?> -->
+<!-- ファイル更新時刻: <?php echo date('Y-m-d H:i:s', filemtime(__FILE__)); ?> -->
+<!-- 価格: 10,000円（このファイルに記載） -->
+<!-- ========== ページテンプレートデバッグ情報 END ========== -->
 
 <main class="sr-support-main">
   <!-- (1) ヒーローセクション -->
