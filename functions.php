@@ -28,9 +28,13 @@ function lightning_child_debug_template_head() {
     echo "<!-- 子テーマディレクトリ: " . $child_dir . " -->\n";
     echo "<!-- 親テーマディレクトリ: " . $parent_dir . " -->\n";
     
-    // テンプレート階層の確認
-    $template_hierarchy = get_page_template_hierarchy();
-    echo "<!-- テンプレート階層: " . implode(', ', $template_hierarchy) . " -->\n";
+    // テンプレート階層の確認（WordPress 5.7以降のみ利用可能）
+    if (function_exists('get_page_template_hierarchy')) {
+      $template_hierarchy = get_page_template_hierarchy();
+      echo "<!-- テンプレート階層: " . implode(', ', $template_hierarchy) . " -->\n";
+    } else {
+      echo "<!-- テンプレート階層: 確認不可（WordPress 5.7以降が必要） -->\n";
+    }
     
     // 実際に読み込まれているファイルの確認
     if ($template && file_exists($template)) {
