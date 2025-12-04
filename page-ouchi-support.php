@@ -7,7 +7,7 @@
 get_header(); ?>
 
 <!-- 株式会社鈴木冷熱｜おうち安心サポート｜トップページ（スラッグ：/support/） -->
-<!-- DEBUG: ファイルバージョン 2.0 | 読み込み時刻: <?php echo date('Y-m-d H:i:s'); ?> | ファイルパス: <?php echo __FILE__; ?> -->
+<!-- DEBUG V2.0 START | 読み込み時刻: <?php echo date('Y-m-d H:i:s'); ?> | ファイル: <?php echo basename(__FILE__); ?> | パス: <?php echo __FILE__; ?> -->
 
 <main id="main" class="site-main" lang="ja">
 
