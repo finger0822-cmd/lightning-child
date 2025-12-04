@@ -1,11 +1,13 @@
 <?php
 /**
  * Template Name: おうち安心サポート
- * Updated: 2024-12-04
+ * Updated: 2024-12-04 15:00
+ * Version: 2.0
  */
 get_header(); ?>
 
 <!-- 株式会社鈴木冷熱｜おうち安心サポート｜トップページ（スラッグ：/support/） -->
+<!-- DEBUG: ファイルバージョン 2.0 | 読み込み時刻: <?php echo date('Y-m-d H:i:s'); ?> | ファイルパス: <?php echo __FILE__; ?> -->
 
 <main id="main" class="site-main" lang="ja">
 
