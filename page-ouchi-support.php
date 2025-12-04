@@ -7,7 +7,16 @@
 get_header(); ?>
 
 <!-- 株式会社鈴木冷熱｜おうち安心サポート｜トップページ（スラッグ：/support/） -->
-<!-- DEBUG V2.0 START | 読み込み時刻: <?php echo date('Y-m-d H:i:s'); ?> | ファイル: <?php echo basename(__FILE__); ?> | パス: <?php echo __FILE__; ?> -->
+<!-- ============================================ -->
+<!-- デバッグ情報 START -->
+<!-- 読み込み時刻: <?php echo date('Y-m-d H:i:s'); ?> -->
+<!-- ファイル名: <?php echo basename(__FILE__); ?> -->
+<!-- 完全パス: <?php echo __FILE__; ?> -->
+<!-- テーマディレクトリ: <?php echo get_stylesheet_directory(); ?> -->
+<!-- 親テーマディレクトリ: <?php echo get_template_directory(); ?> -->
+<!-- 現在のテンプレート: <?php echo get_page_template(); ?> -->
+<!-- デバッグ情報 END -->
+<!-- ============================================ -->
 
 <main id="main" class="site-main" lang="ja">
 
